@@ -5,7 +5,7 @@ url2021books = 'https://book-list-api-v2.alex243.repl.co/?year=2021'
 x = requests.post(url2021books)
 print(x.text)
 
-cryptoPrices = 'https://priceData.alex243.repl.co'
+# cryptoPrices = 'https://priceData.alex243.repl.co'
 
-y = requests.post(cryptoPrices)
-print(y.text)
+# y = requests.post(cryptoPrices)
+# print(y.text)
